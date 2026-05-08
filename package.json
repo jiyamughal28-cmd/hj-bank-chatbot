@@ -2,7 +2,6 @@
   "name": "hj-bank-chatbot",
   "version": "14.0.0",
   "description": "HJ Bank AI Banking Assistant",
-  "type": "module",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
