@@ -1,6 +1,6 @@
 'use strict';
 const { Router } = require('express');
-const fetch = (...args) => import('node-fetch').then(({default: f}) => f(...args));
+const fetch = require('node-fetch');
 const router = Router();
 
 const MODELS = [
